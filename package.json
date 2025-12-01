@@ -1,0 +1,21 @@
+{
+  "name": "adventures-of-super-stad",
+  "version": "0.1.0",
+  "description": "A side-scrolling endless runner game",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:host": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate.js",
+    "levels": "node scripts/list-levels.js"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.57.0",
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
+  }
+}
